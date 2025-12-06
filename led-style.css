@@ -70,18 +70,25 @@ header {
 
 header h1 {
     font-size: clamp(2rem, 4vw, 3rem);
-    margin: 0;
-    color: #0f172a;
+    margin: 10px;
+    color: #10182b;
+}
+
+header h2 {
+    font-size: clamp(1.5rem, 3.5vw, 2rem);
+    margin-top: 0;
+    color: #343943;
+    transition-property: all;
 }
 
 header p {
-    margin: 10px 0 0;
+    margin-top: 10px 0 0;
     font-size: 1.1rem;
     color: #475569;
 }
 
 .brand-note {
-    margin: 0 0 12px;
+    margin: 0 0 0px;
     font-size: 1rem;
     font-weight: 600;
     color: #475569;
